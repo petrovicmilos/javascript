@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Basketball players</title>
+</head>
+<body>
+    <table id="table" class="table">
+        <tr>
+            <thead class="thead thead-dark">
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Height</th>
+                <th>Position</th>
+                <th>Actions</th>
+            </thead>
+            
+        </tr>
+        <tr>
+            <td>Milos</td>
+            <td>Petrovic</td>
+            <td>24</td>
+            <td>206</td>
+            <td>Center</td>
+            <td>
+                <button class="btn btn-success">Edit</button>
+                <button class="btn btn-warning">Delete</button>
+            </td>
+        </tr>
+        
+    </table>
+    <div class="text text-center" id="form">
+        <h2>Add a new player</h2>
+        <form class="form-vertical" id="form-input">
+            <input type="text" id="firstName" placeholder="First Name">
+            <input type="text" id="lastName" placeholder="First Name">
+            <input type="text" id="age" placeholder="Age">
+            <input type="text" id="height" placeholder="Height">
+            <select name="position" id="position">
+                <option value="" disabled selected>Select a position</option>
+                <option value="point-guard">#1 - Point guard</option>
+                <option value="shooting-guard">#2 - Shooting guard</option>
+                <option value="small-forward">#3 - Small forward</option>
+                <option value="power-forward">#4 - Power forward</option>
+                <option value="center">#5 - Center</option>
+            </select>
+            <input type="submit" name="submit" id="button" class="btn btn-success" value="Dodaj">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

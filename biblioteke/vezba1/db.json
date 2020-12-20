@@ -1,0 +1,18 @@
+{
+  "workers": [
+    {
+      "firstName": "Milos",
+      "lastName": "Petrovic",
+      "age": "24",
+      "department": "finance",
+      "id": 1
+    },
+    {
+      "firstName": "Ajla",
+      "lastName": "Rasljanin",
+      "age": "24",
+      "department": "dev",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+**************** REGULAR EXPRESSIONS *****************
+
+1. The replace() method returns a new string with some or all matches of a pattern replaced by a replacement.
+2. Set() objects are collections of values. You can iterate through the elements of a set in insertion order. A value in the Set may only occur once; it is unique in the Set's collection.
+3. The filter() method creates a new array with all elements that pass the test implemented by the provided function.
+4. The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
+5. The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in single output value.
+6. The join() method creates and returns a new string by concatenating all of the elements in an array (or an array-like object), separated by commas or a specified separator string. If the array has only one item, then that item will be returned without using the separator.
+
+
+
+******************* RegEx ***********************
+1. (\w+) matches any word character (equal to [a-zA-Z0-9_]), where + Quantifier Matches between one and unlimited times, as many times as possible, giving back as needed (greedy) matches the character literally (case sensitive)
+
+2. ([\+\-][\d]+) Match a single character present in the list: \+ matches the character + literally (case sensitive)
+                                                               \- matches the character - literally (case sensitive)
+                                                               \d matches a digit (equal to [0-9])
+
+3. dot(.) matches any character other than new line
+   * Matches zero or more consecutive characters.   
+   ? Matches one character or nothing.                                                  
+
+0666322241 - Dzemil
+
+
+https://splidejs.com/

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lDng="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url('https://i.imgur.com/b9r5sEL.jpg');
+        }
+
+        .buttons {
+            display: flex;
+            flex: 1;
+            min-height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .button {
+            border: .4rem solid black;
+            border-radius: .5rem;
+            margin: 1rem;
+            font-size: 1.5rem;
+            padding: 1rem .5rem;
+            transition: all .07s ease;
+            width: 10rem;
+            text-align: center;
+            color: white;
+            background: rgba(0,0,0,0.4);
+            text-shadow: 0 0 .5rem black;
+        }
+    </style>
+    <title>Drum kit</title>
+</head>
+<body>
+    <div class="buttons">
+        <button class="button"><h1>A</h1><p>CLAP</p></button>
+        <button class="button"><h1>S</h1><P>HIHAT</P></button>
+        <button class="button"><h1>D</h1><P>KICK</P></button>
+        <button class="button"><h1>F</h1><P>OPENHAT</P></button>
+        <button class="button"><h1>G</h1><P>BOOM</P></button>
+        <button class="button"><h1>H</h1><P>RIDE</P></button>
+        <button class="button"><h1>J</h1><P>SNARE</P></button>
+        <button class="button"><h1>K</h1><P>TOM</P></button>
+        <button class="button"><h1>L</h1><P>TINK</P></button>
+    </div>
+
+    <audio id="a" src="sounds/clap.wav"></audio>
+    <audio id="s" src="sounds/hihat.wav"></audio>
+    <audio id="d" src="sounds/kick.wav"></audio>
+    <audio id="f" src="sounds/openhat.wav"></audio>
+    <audio id="g" src="sounds/boom.wav"></audio>
+    <audio id="h" src="sounds/ride.wav"></audio>
+    <audio id="j" src="sounds/snare.wav"></audio>
+    <audio id="k" src="sounds/tom.wav"></audio>
+    <audio id="l" src="sounds/tink.wav"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
